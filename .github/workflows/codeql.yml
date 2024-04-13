@@ -83,7 +83,7 @@ jobs:
       run: |
         sudo apt install libmnl-dev
         sudo apt install libnftnl-dev
-        ./configure
+        ./configure --disable-nftables
         make
 
     - name: Perform CodeQL Analysis
