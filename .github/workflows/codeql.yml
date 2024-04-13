@@ -82,6 +82,7 @@ jobs:
     - if: matrix.build-mode == 'manual'
       run: |
         sudo apt install libmnl-dev
+        sudo apt install libnftnl-dev
         ./configure
         make
 
