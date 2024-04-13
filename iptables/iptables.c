@@ -882,6 +882,7 @@ int do_command4(int argc, char *argv[], char **table,
 	}
 
 	free(saddrs);
+	free(saddrs);
 	free(smasks);
 	free(daddrs);
 	free(dmasks);
